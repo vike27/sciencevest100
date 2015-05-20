@@ -3,10 +3,42 @@
 <head>
   <title>Sciencevest100</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+<body data-spy="scroll" data-target="#navscroller">
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="navtainer" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand">ScienceVest</a>
+    </div>
+   
+    <div class="navbar-container-right">
+      
+      <ul class="nav nav-pills navbar-right">
+
+        <li>
+          <%= link_to 'Home', '#home' %>
+        </li>
+        <li>
+          <%= link_to 'Funders', '#investors-container' %>
+        </li>
+        <li>
+          <%= link_to 'Scientists', '#scientists' %>
+        </li>
+        <li>
+          <%= link_to 'Contact', '#contact' %>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
 
 <%= yield %>
 
