@@ -110,12 +110,12 @@ body {
 /** investors section **/
 
 #investors-container {
-	height: 950px;
 	font-family: 'Rokkitt', serif;
 	font-size: 16px;
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 75px;
+	padding-bottom: 75px;
 	text-align: center;
 }
 
@@ -155,9 +155,8 @@ body {
 #scientists {
 	background-color: #428bca;
 	color: white;
-	height: 700px;
 	font-family: 'Rokkitt', serif;
-	padding-bottom: 50px;
+	padding-bottom: 105px;
 	margin: 0px;
 	.who {
 		padding-top: 75px;
