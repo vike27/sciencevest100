@@ -1,6 +1,5 @@
 @import "bootstrap";
 
-@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
 /** body **/
 
 body {
@@ -50,6 +49,7 @@ body {
 	    ),image-url('spaceshipbanner.jpg');   
 	height: 680px;
 	margin-top: 0px;
+	font-size: 16px;
     background-attachment:fixed;
     background-size:cover;
 }
@@ -94,6 +94,7 @@ body {
 .signup-button {
 	width: 275px;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #mce-EMAIL {
